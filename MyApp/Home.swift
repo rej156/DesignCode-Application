@@ -20,11 +20,9 @@ class Home: UIViewController {
         let translate = CGAffineTransformMakeTranslation(0, -200)
         dialogView.transform = CGAffineTransformConcat(scale, translate)
         
-        UIView.animateWithDuration(5, animations: {
-
-            // end
+        spring(0.7) {
             self.dialogView.transform = CGAffineTransformIdentity
-        })
+        }
     }
 
 }
