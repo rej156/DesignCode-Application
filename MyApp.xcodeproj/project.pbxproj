@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4A7CDF2B1A0FABDA00D63636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CDF2A1A0FABDA00D63636 /* AppDelegate.swift */; };
-		4A7CDF2D1A0FABDA00D63636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CDF2C1A0FABDA00D63636 /* ViewController.swift */; };
 		4A7CDF301A0FABDA00D63636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDF2E1A0FABDA00D63636 /* Main.storyboard */; };
 		4A7CDF321A0FABDA00D63636 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDF311A0FABDA00D63636 /* Images.xcassets */; };
 		4A7CDF351A0FABDA00D63636 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDF331A0FABDA00D63636 /* LaunchScreen.xib */; };
 		4A7CDF411A0FABDA00D63636 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CDF401A0FABDA00D63636 /* MyAppTests.swift */; };
+		4A7CDF4C1A0FBEE500D63636 /* TipoType - Libertad.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDF4B1A0FBEE500D63636 /* TipoType - Libertad.otf */; };
+		4A7CDF4E1A0FC5FF00D63636 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CDF4D1A0FC5FF00D63636 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		4A7CDF251A0FABDA00D63636 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7CDF291A0FABDA00D63636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7CDF2A1A0FABDA00D63636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A7CDF2C1A0FABDA00D63636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A7CDF2F1A0FABDA00D63636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7CDF311A0FABDA00D63636 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A7CDF341A0FABDA00D63636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A7CDF3A1A0FABDA00D63636 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7CDF3F1A0FABDA00D63636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7CDF401A0FABDA00D63636 /* MyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTests.swift; sourceTree = "<group>"; };
+		4A7CDF4B1A0FBEE500D63636 /* TipoType - Libertad.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TipoType - Libertad.otf"; sourceTree = "<group>"; };
+		4A7CDF4D1A0FC5FF00D63636 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 		4A7CDF271A0FABDA00D63636 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A7CDF4A1A0FBEE500D63636 /* font */,
 				4A7CDF2A1A0FABDA00D63636 /* AppDelegate.swift */,
-				4A7CDF2C1A0FABDA00D63636 /* ViewController.swift */,
+				4A7CDF4D1A0FC5FF00D63636 /* Home.swift */,
 				4A7CDF2E1A0FABDA00D63636 /* Main.storyboard */,
 				4A7CDF311A0FABDA00D63636 /* Images.xcassets */,
 				4A7CDF331A0FABDA00D63636 /* LaunchScreen.xib */,
@@ -110,6 +113,14 @@
 				4A7CDF3F1A0FABDA00D63636 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7CDF4A1A0FBEE500D63636 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				4A7CDF4B1A0FBEE500D63636 /* TipoType - Libertad.otf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7CDF4C1A0FBEE500D63636 /* TipoType - Libertad.otf in Resources */,
 				4A7CDF301A0FABDA00D63636 /* Main.storyboard in Resources */,
 				4A7CDF351A0FABDA00D63636 /* LaunchScreen.xib in Resources */,
 				4A7CDF321A0FABDA00D63636 /* Images.xcassets in Resources */,
@@ -212,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7CDF2D1A0FABDA00D63636 /* ViewController.swift in Sources */,
+				4A7CDF4E1A0FC5FF00D63636 /* Home.swift in Sources */,
 				4A7CDF2B1A0FABDA00D63636 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
